@@ -21,7 +21,7 @@ public enum ErrorCode {
 
     //image
     INVALID_FILE_FORMAT(HttpStatus.BAD_REQUEST,"파일 형식이 잘못되었습니다"),
-
+    FILE_SIZE_EXCEED(HttpStatus.BAD_REQUEST,"파일 사이즈가 너무 큽니다"),
     // member
     MEMBER_NOT_FOUND(HttpStatus.NOT_FOUND, "존재하지 않는 회원입니다."),
     IMAGE_NOT_EXISTS(HttpStatus.NOT_FOUND,"이미지를 찾을 수 없습니다"),
